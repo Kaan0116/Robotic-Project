@@ -1,0 +1,28 @@
+# Particle Filter parameters
+particle_filter:
+  ros__parameters:
+    n_particles: 2000
+    sigma_dist: 0.05      # sensor model distance std [m]
+    sigma_bear: 0.05      # sensor model bearing std [rad]
+    alpha: [0.10, 0.05, 0.05, 0.02]   # motion noise
+
+# Detection Simulator parameters
+detection_simulator:
+  ros__parameters:
+    fov_half_deg: 45.0    # half-FOV [degrees]
+    max_range: 3.5        # detection range [m]
+    sigma_dist: 0.05      # detection distance noise [m]
+    sigma_bear: 0.03      # detection bearing noise [rad]
+    min_publish_gap: 0.08 # min seconds between publishes
+
+# Tag map (world frame, z = 1.0 m)
+tag_map:
+  positions:
+    - [-1.50, -2.40]   # tag 0 – South wall, left
+    - [ 1.20, -2.40]   # tag 1 – South wall, right
+    - [-0.30,  2.40]   # tag 2 – North wall, left
+    - [ 2.00,  2.40]   # tag 3 – North wall, right
+    - [-2.90, -0.50]   # tag 4 – West wall, bottom
+    - [-2.90,  1.50]   # tag 5 – West wall, top
+    - [ 2.90,  0.50]   # tag 6 – East wall, top
+    - [ 2.90, -1.50]   # tag 7 – East wall, bottom
