@@ -71,7 +71,7 @@ pip3 install numpy matplotlib opencv-contrib-python
 ```bash
 mkdir -p ~/pf_ws/src
 cd ~/pf_ws/src
-git clone <REPO_URL> pf_localization
+git clone https://github.com/Kaan0116/Robotic-Project.git pf_localization
 
 cd ~/pf_ws
 source /opt/ros/humble/setup.bash
