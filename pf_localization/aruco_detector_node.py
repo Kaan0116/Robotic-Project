@@ -99,8 +99,9 @@ class ArucoDetectorNode(Node):
             if not ok:
                 continue
 
-            distance = float(np.linalg.norm(tvec))
-            bearing  = float(math.atan2(tvec[0][0], tvec[2][0]))
+           
+            distance = float(math.sqrt(tvec[0][0]**2 + tvec[2][0]**2))
+            bearing  = float(math.atan2(-tvec[0][0], tvec[2][0]))
 
             out = Float64MultiArray()
             out.data = [distance, bearing]
