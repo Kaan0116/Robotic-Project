@@ -139,7 +139,7 @@
   <!-- tag 0 — South wall, left   (-1.50, -2.40, 1.0) -->
   <model name="tag_S1">
     <static>true</static>
-    <pose>-1.50 -2.46 1.0 0 0 0</pose>
+    <pose>-2.10 -2.46 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.25 0.03 0.25</size></box></geometry>
@@ -160,7 +160,7 @@
   <!-- tag 1 — South wall, right  ( 1.20, -2.40, 1.0) -->
   <model name="tag_S2">
     <static>true</static>
-    <pose>1.20 -2.46 1.0 0 0 0</pose>
+    <pose>0.8 -2.46 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.25 0.03 0.25</size></box></geometry>
@@ -181,7 +181,7 @@
   <!-- tag 2 — North wall, left  (-0.30, +2.40, 1.0) -->
   <model name="tag_N1">
     <static>true</static>
-    <pose>-0.30 2.46 1.0 0 0 0</pose>
+    <pose>-0.70 2.46 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.25 0.03 0.25</size></box></geometry>
@@ -202,7 +202,7 @@
   <!-- tag 3 — North wall, right  ( 2.00, +2.40, 1.0) -->
   <model name="tag_N2">
     <static>true</static>
-    <pose>2.00 2.46 1.0 0 0 0</pose>
+    <pose>2.30 2.46 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.25 0.03 0.25</size></box></geometry>
@@ -223,7 +223,7 @@
   <!-- tag 4 — West wall, bottom  (-2.90, -0.50, 1.0) -->
   <model name="tag_W1">
     <static>true</static>
-    <pose>-2.96 -0.50 1.0 0 0 0</pose>
+    <pose>-2.96 -1.80 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.03 0.25 0.25</size></box></geometry>
@@ -244,7 +244,7 @@
   <!-- tag 5 — West wall, top     (-2.90, +1.50, 1.0) -->
   <model name="tag_W2">
     <static>true</static>
-    <pose>-2.96 1.50 1.0 0 0 0</pose>
+    <pose>-2.96 1.10 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.03 0.25 0.25</size></box></geometry>
@@ -265,7 +265,7 @@
   <!-- tag 6 — East wall, top     (+2.90, +0.50, 1.0) -->
   <model name="tag_E1">
     <static>true</static>
-    <pose>2.96 0.50 1.0 0 0 0</pose>
+    <pose>2.96 0.20 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.03 0.25 0.25</size></box></geometry>
@@ -286,7 +286,7 @@
   <!-- tag 7 — East wall, bottom  (+2.90, -1.50, 1.0) -->
   <model name="tag_E2">
     <static>true</static>
-    <pose>2.96 -1.50 1.0 0 0 0</pose>
+    <pose>2.96 -0.50 1.0 0 0 0</pose>
     <link name="link">
       <visual name="v">
         <geometry><box><size>0.03 0.25 0.25</size></box></geometry>

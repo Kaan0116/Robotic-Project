@@ -36,11 +36,11 @@ from pf_localization.constants import (
 N_PARTICLES = 2000
 
 # Odometry noise (Probabilistic Robotics Table 5.3)
-ALPHA = [0.10, 0.05, 0.05, 0.02]   # [a1, a2, a3, a4]
+ALPHA = [0.25, 0.15, 0.15, 0.08]  # [a1, a2, a3, a4]
 
 # Sensor noise
-SIGMA_DIST  = 0.05   # [m]   distance std
-SIGMA_BEAR  = 0.05   # [rad] bearing std
+SIGMA_DIST  = 0.18   # [m]   distance std
+SIGMA_BEAR  = 0.18   # [rad] bearing std
 
 MIN_WEIGHT  = 1e-200  # floor to avoid log-sum underflow
 # ───────────────────────────────────────────────────────────────────────────
